@@ -13,10 +13,16 @@ namespace Microsoft\BingAds\V13\Reporting;
     final class CampaignReportScope
     {
         /**
+         * A list of up to 1,000 account identifiers to include in the report.
+         * @var integer[]
+         */
+        public $AccountIds;
+
+        /**
          * The identifier of the account that the campaign belongs to.
          * @var integer
          */
-        public $AccountId;
+        public $AccountIds;
 
         /**
          * The identifier of the campaign to limit the scope to.
