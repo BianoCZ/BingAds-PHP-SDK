@@ -22,7 +22,7 @@ namespace Microsoft\BingAds\V13\Reporting;
          * The identifier of the account that the campaign belongs to.
          * @var integer
          */
-        public $AccountIds;
+        public $AccountId;
 
         /**
          * The identifier of the campaign to limit the scope to.
